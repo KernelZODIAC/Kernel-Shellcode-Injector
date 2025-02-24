@@ -9,3 +9,7 @@ This project is a Windows x64 kernel driver (PoC) that enables shellcode injecti
 
 - Use `shellcode-creator.py` to generate shellcode in the required format.
 - Modify the target process as needed.
+
+# Additional Sources
+
+- `getssdt.h` is based on [TitanHide](https://github.com/mrexodia/TitanHide).
