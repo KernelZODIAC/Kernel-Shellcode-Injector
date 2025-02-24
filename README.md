@@ -1,2 +1,11 @@
-# Kernel-Shellcode-Injector
-Windows x64 kernel driver PoC that allows you to inject shellcode into usermode process
+# Overview
+
+This project is a Windows x64 kernel driver (PoC) that enables shellcode injection into user-mode processes from the kernel.
+
+# Tested system
+
+- Windows 10 22h2 & Windows 11 24h2 x64.
+# Information
+
+- Use `shellcode-creator.py` to generate shellcode in the required format.
+- Modify the target process as needed.
